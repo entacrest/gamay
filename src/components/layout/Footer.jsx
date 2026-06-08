@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Share2, AtSign, MessageCircle, LinkIcon } from 'lucide-react';
 import { contactInfo } from '../../data';
-import logo from "../../assets/gamay.jpeg";
+import logo from "../../assets/Gamay.jpeg";
 
 const services = [
   { label: 'Homes & Properties', href: '/homes' },

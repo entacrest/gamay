@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { Menu, X, ChevronDown, Phone } from 'lucide-react';
 import { contactInfo } from '../../data';
-import logo from "../../assets/gamay.jpeg";
+import logo from "../../assets/Gamay.jpeg";
 
 const navLinks = [
   { label: 'Home', href: '/' },
