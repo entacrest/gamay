@@ -1,9 +1,6 @@
 import greenfieldEstate from "../assets/Gamay.jpeg";
-// import estate2 from "../assets/properties/harvest-fields.jpg";
-// import estate3 from "../assets/properties/gamay-luxury-homes.jpg";
-// import estate4 from "../assets/properties/metro-commercial-hub.jpg";
-// import estate5 from "../assets/properties/sunrise-gardens.jpg";
-// import estate6 from "../assets/properties/farmstead-acres.jpg";
+import portfolioimage1 from "../assets/slider1.jpeg";
+import portfolioimage2 from "../assets/slider2.jpeg";
 
 // ─── Business Units ───────────────────────────────────────────────
 export const businessUnits = [
@@ -71,15 +68,125 @@ export const properties = [
 ];
 
 export const portfolioItems = [
-  { id: 1, title: 'Greenfield Estate Branding',    category: 'Branding',    division: 'Multimedia', img: greenfieldEstate },
-  { id: 2, title: 'Lagos Property Development',    category: 'Real Estate', division: 'Homes',      img: greenfieldEstate },
-  { id: 3, title: 'Corporate Identity Fintech',    category: 'Design',      division: 'Multimedia', img: greenfieldEstate },
-  { id: 4, title: 'Office Complex Deep Clean',     category: 'Facility',    division: 'Facility',   img: greenfieldEstate },
-  { id: 5, title: 'Brand Film Food Company',       category: 'Video',       division: 'Multimedia', img: greenfieldEstate },
-  { id: 6, title: 'Agricultural Land Survey',      category: 'Real Estate', division: 'Homes',      img: greenfieldEstate },
-  { id: 7, title: 'Social Media Campaign',         category: 'Marketing',   division: 'Multimedia', img: greenfieldEstate },
-  { id: 8, title: 'Post Construction Cleanup',     category: 'Facility',    division: 'Facility',   img: greenfieldEstate },
-  { id: 9, title: 'Product Photography Series',    category: 'Photography', division: 'Multimedia', img: greenfieldEstate },
+  {
+    id: 1,
+    title: 'Greenfield Estate Branding',
+    category: 'Branding',
+    division: 'Multimedia',
+
+    img: greenfieldEstate,
+
+    images: [
+      portfolioimage1,
+      portfolioimage2,
+    ]
+  },
+
+  {
+    id: 2,
+    title: 'Lagos Property Development',
+    category: 'Real Estate',
+    division: 'Homes',
+
+    img: greenfieldEstate,
+
+    images: [
+      portfolioimage1,
+      portfolioimage2
+    ]
+  },
+
+  {
+    id: 3,
+    title: 'Corporate Identity Fintech',
+    category: 'Design',
+    division: 'Multimedia',
+
+    img: greenfieldEstate,
+    images: [
+      portfolioimage1,
+      portfolioimage2
+    ]
+  },
+
+  {
+    id: 4,
+    title: 'Office Complex Deep Clean',
+    category: 'Facility',
+    division: 'Facility',
+
+    img: greenfieldEstate,
+    images: [
+      portfolioimage1,
+      portfolioimage2
+    ]
+  },
+
+  {
+    id: 5,
+    title: 'Brand Film Food Company',
+    category: 'Video',
+    division: 'Multimedia',
+
+    img: greenfieldEstate,
+    youtube: "https://www.youtube.com/embed/MRZTtaYaluw?si=wjE_TirhUEniLe9m",
+    // images: [
+    //   portfolioimage1,
+    //   portfolioimage2
+    // ]
+  },
+
+  {
+    id: 6,
+    title: 'Agricultural Land Survey',
+    category: 'Real Estate',
+    division: 'Homes',
+
+    img: greenfieldEstate,
+    images: [
+      portfolioimage1,
+      portfolioimage2
+    ]
+  },
+
+  {
+    id: 7,
+    title: 'Social Media Campaign',
+    category: 'Marketing',
+    division: 'Multimedia',
+
+    img: greenfieldEstate,
+    images: [
+      portfolioimage1,
+      portfolioimage2
+    ]
+  },
+
+  {
+    id: 8,
+    title: 'Post Construction Cleanup',
+    category: 'Facility',
+    division: 'Facility',
+
+    img: greenfieldEstate,
+    images: [
+      portfolioimage1,
+      portfolioimage2
+    ]
+  },
+
+  {
+    id: 9,
+    title: 'Product Photography Series',
+    category: 'Photography',
+    division: 'Multimedia',
+
+    img: greenfieldEstate,
+    images: [
+      portfolioimage1,
+      portfolioimage2
+    ]
+  },
 ];
 
 export const blogPosts = [
