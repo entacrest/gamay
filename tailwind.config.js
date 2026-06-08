@@ -13,8 +13,10 @@ export default {
           500: "#3663b3",
           600: "#1a3f7a",
           700: "#0f2a57",
-          800: "#0a1f42",
-          900: "#06142c",
+          // 800: "#0a1f42",
+          // 900: "#06142c",
+          800: "#1f1d1d",
+          900: "#1f1d1d"
         },
         gold: {
           50:  "#fef9ec",
@@ -27,6 +29,8 @@ export default {
           700: "#8f640d",
           800: "#664708",
           900: "#3d2b05",
+          // 800: "#a78730",
+          // 900: "#a78730"
         },
         emerald: {
           50:  "#e8f5f0",
@@ -41,10 +45,15 @@ export default {
           900: "#042f1b",
         },
       },
+      // fontFamily: {
+      //   display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+      //   body:    ['"DM Sans"', 'sans-serif'],
+      //   mono:    ['"JetBrains Mono"', 'monospace'],
+      // },
       fontFamily: {
-        display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
-        body:    ['"DM Sans"', 'sans-serif'],
-        mono:    ['"JetBrains Mono"', 'monospace'],
+        display: ['"Playfair Display"', 'serif'],
+        body: ['"Inter"', 'sans-serif'],
+        mono: ['"JetBrains Mono"', 'monospace'],
       },
       animation: {
         'fade-up':    'fadeUp 0.7s ease forwards',

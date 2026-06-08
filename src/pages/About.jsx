@@ -96,8 +96,15 @@ export default function About() {
             {teamMembers.map((member, i) => (
               <Reveal key={member.name} delay={i * 100}>
                 <div className="bg-white border border-gray-100 rounded-sm overflow-hidden card-hover text-center group">
-                  <div className="h-52 bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center group-hover:from-primary-700 group-hover:to-primary-900 transition-all duration-500">
+                  {/* <div className="h-52 bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center group-hover:from-primary-700 group-hover:to-primary-900 transition-all duration-500">
                     <User size={48} className="text-primary-300 group-hover:text-white/30 transition-colors" />
+                  </div> */}
+                  <div className="h-64 overflow-hidden">
+                    <img
+                      src={member.img}
+                      alt={member.name}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
                   </div>
                   <div className="p-6">
                     <h3 className="font-display text-lg font-600 text-primary-800 mb-1">{member.name}</h3>

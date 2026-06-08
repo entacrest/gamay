@@ -17,17 +17,31 @@ const gradients = [
 ];
 
 export default function PropertyCard({ property, index = 0 }) {
-  const { name, location, category, price, status } = property;
+  const { name, location, category, price, status, img } = property;
   const grad = gradients[index % gradients.length];
 
   return (
     <div className="bg-white border border-gray-100 rounded-sm overflow-hidden card-hover group">
       {/* Image placeholder */}
-      <div className={`h-52 bg-gradient-to-br ${grad} relative flex items-end p-4`}>
+      {/* <div className={`h-52 bg-gradient-to-br ${grad} relative flex items-end p-4`}>
         <span className={`absolute top-4 right-4 text-xs font-600 font-body px-3 py-1 rounded-sm border ${statusColor[status] || statusColor.Available}`}>
           {status}
         </span>
         <span className="text-white text-2xl font-display font-600">{price}</span>
+      </div> */}
+      <div className="h-52 relative overflow-hidden flex items-end p-4">
+        {img ? (<img src={img} alt={name} className="absolute inset-0 w-full h-full object-cover"/>) : (
+          <div className={`absolute inset-0 bg-gradient-to-br ${grad}`}/>)}
+
+        {/* Optional dark overlay for readability */}
+        <div className="absolute inset-0 bg-black/20" />
+
+        <span className={`absolute top-4 right-4 text-xs font-600 font-body px-3 py-1 rounded-sm border ${
+            statusColor[status] || statusColor.Available}`}> {status}
+        </span>
+        <span className="relative z-10 text-white text-2xl font-display font-600">
+          {price}
+        </span>
       </div>
 
       <div className="p-6">

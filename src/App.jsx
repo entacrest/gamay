@@ -13,13 +13,26 @@ const Blog       = lazy(() => import('./pages/Blog'));
 const Contact    = lazy(() => import('./pages/Contact'));
 const NotFound   = lazy(() => import('./pages/NotFound'));
 
+// function PageLoader() {
+//   return (
+//     <div className="min-h-screen flex items-center justify-center bg-white">
+//       <div className="flex flex-col items-center gap-4">
+//         <div className="w-10 h-10 bg-primary-700 rounded-sm flex items-center justify-center animate-pulse">
+//           <span className="font-display font-700 text-white text-lg">G</span>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
 function PageLoader() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-white">
       <div className="flex flex-col items-center gap-4">
-        <div className="w-10 h-10 bg-primary-700 rounded-sm flex items-center justify-center animate-pulse">
-          <span className="font-display font-700 text-white text-lg">G</span>
-        </div>
+        <img
+          src="/src/assets/gamay.jpeg"
+          alt="Gamay Group"
+          className="w-24 h-auto animate-pulse"
+        />
       </div>
     </div>
   );

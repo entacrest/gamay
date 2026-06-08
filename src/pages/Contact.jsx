@@ -85,7 +85,8 @@ export default function Contact() {
       <section className="bg-gray-100 h-96">
         <iframe
           title="Gamay Group Location"
-          src="https://maps.google.com/maps?q=Nigeria&output=embed&z=5"
+          // src="https://maps.google.com/maps?q=Nigeria&output=embed&z=5"
+          src="https://www.google.com/maps?q=6.601935,3.3371757&z=18&output=embed"
           className="w-full h-full border-0"
           loading="lazy"
           allowFullScreen

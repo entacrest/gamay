@@ -1,3 +1,10 @@
+import greenfieldEstate from "../assets/Gamay.jpeg";
+// import estate2 from "../assets/properties/harvest-fields.jpg";
+// import estate3 from "../assets/properties/gamay-luxury-homes.jpg";
+// import estate4 from "../assets/properties/metro-commercial-hub.jpg";
+// import estate5 from "../assets/properties/sunrise-gardens.jpg";
+// import estate6 from "../assets/properties/farmstead-acres.jpg";
+
 // ─── Business Units ───────────────────────────────────────────────
 export const businessUnits = [
   {
@@ -40,10 +47,10 @@ export const coreValues = [
 ];
 
 export const teamMembers = [
-  { name: 'Adebayo Gamay',     title: 'Group Managing Director', img: null },
-  { name: 'Chioma Okonkwo',    title: 'Head of Real Estate',     img: null },
-  { name: 'Ibrahim Musa',      title: 'Creative Director',       img: null },
-  { name: 'Funmilayo Adeyemi', title: 'Head of Facility Mgmt',   img: null },
+  { name: 'Adebayo Gamay',     title: 'Group Managing Director', img: greenfieldEstate },
+  { name: 'Chioma Okonkwo',    title: 'Head of Real Estate',     img: greenfieldEstate },
+  { name: 'Ibrahim Musa',      title: 'Creative Director',       img: greenfieldEstate },
+  { name: 'Funmilayo Adeyemi', title: 'Head of Facility Mgmt',   img: greenfieldEstate },
 ];
 
 export const testimonials = [
@@ -55,24 +62,24 @@ export const testimonials = [
 ];
 
 export const properties = [
-  { id: 1, name: 'Greenfield Estate Phase 1',      location: 'Epe, Lagos',     category: 'Residential Land', price: '₦2.5M',  status: 'Available', img: null },
-  { id: 2, name: 'Harvest Fields Agricultural Park', location: 'Ogun State',   category: 'Agricultural Land', price: '₦1.8M', status: 'Available', img: null },
-  { id: 3, name: 'Gamay Luxury Homes',              location: 'Lekki, Lagos',  category: 'Residential',       price: '₦45M',  status: 'Available', img: null },
-  { id: 4, name: 'Metro Commercial Hub',            location: 'Abuja FCT',     category: 'Commercial',        price: '₦12M',  status: 'Available', img: null },
-  { id: 5, name: 'Sunrise Gardens',                location: 'Ibadan, Oyo',   category: 'Residential Land', price: '₦3.2M',  status: 'Limited',   img: null },
-  { id: 6, name: 'Farmstead Acres',                location: 'Plateau State', category: 'Agricultural Land', price: '₦950K', status: 'Available', img: null },
+  { id: 1, name: 'Greenfield Estate Phase 1',      location: 'Epe, Lagos',     category: 'Residential Land', price: '₦2.5M',  status: 'Available', img: greenfieldEstate,},
+  { id: 2, name: 'Harvest Fields Agricultural Park', location: 'Ogun State',   category: 'Agricultural Land', price: '₦1.8M', status: 'Available', img: greenfieldEstate },
+  { id: 3, name: 'Gamay Luxury Homes',              location: 'Lekki, Lagos',  category: 'Residential',       price: '₦45M',  status: 'Available', img: greenfieldEstate },
+  { id: 4, name: 'Metro Commercial Hub',            location: 'Abuja FCT',     category: 'Commercial',        price: '₦12M',  status: 'Available', img: greenfieldEstate },
+  { id: 5, name: 'Sunrise Gardens',                location: 'Ibadan, Oyo',   category: 'Residential Land', price: '₦3.2M',  status: 'Limited',   img: greenfieldEstate },
+  { id: 6, name: 'Farmstead Acres',                location: 'Plateau State', category: 'Agricultural Land', price: '₦950K', status: 'Available', img: greenfieldEstate },
 ];
 
 export const portfolioItems = [
-  { id: 1, title: 'Greenfield Estate Branding',    category: 'Branding',    division: 'Multimedia', img: null },
-  { id: 2, title: 'Lagos Property Development',    category: 'Real Estate', division: 'Homes',      img: null },
-  { id: 3, title: 'Corporate Identity Fintech',    category: 'Design',      division: 'Multimedia', img: null },
-  { id: 4, title: 'Office Complex Deep Clean',     category: 'Facility',    division: 'Facility',   img: null },
-  { id: 5, title: 'Brand Film Food Company',       category: 'Video',       division: 'Multimedia', img: null },
-  { id: 6, title: 'Agricultural Land Survey',      category: 'Real Estate', division: 'Homes',      img: null },
-  { id: 7, title: 'Social Media Campaign',         category: 'Marketing',   division: 'Multimedia', img: null },
-  { id: 8, title: 'Post Construction Cleanup',     category: 'Facility',    division: 'Facility',   img: null },
-  { id: 9, title: 'Product Photography Series',    category: 'Photography', division: 'Multimedia', img: null },
+  { id: 1, title: 'Greenfield Estate Branding',    category: 'Branding',    division: 'Multimedia', img: greenfieldEstate },
+  { id: 2, title: 'Lagos Property Development',    category: 'Real Estate', division: 'Homes',      img: greenfieldEstate },
+  { id: 3, title: 'Corporate Identity Fintech',    category: 'Design',      division: 'Multimedia', img: greenfieldEstate },
+  { id: 4, title: 'Office Complex Deep Clean',     category: 'Facility',    division: 'Facility',   img: greenfieldEstate },
+  { id: 5, title: 'Brand Film Food Company',       category: 'Video',       division: 'Multimedia', img: greenfieldEstate },
+  { id: 6, title: 'Agricultural Land Survey',      category: 'Real Estate', division: 'Homes',      img: greenfieldEstate },
+  { id: 7, title: 'Social Media Campaign',         category: 'Marketing',   division: 'Multimedia', img: greenfieldEstate },
+  { id: 8, title: 'Post Construction Cleanup',     category: 'Facility',    division: 'Facility',   img: greenfieldEstate },
+  { id: 9, title: 'Product Photography Series',    category: 'Photography', division: 'Multimedia', img: greenfieldEstate },
 ];
 
 export const blogPosts = [

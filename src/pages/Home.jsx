@@ -7,6 +7,8 @@ import TestimonialSlider from '../components/ui/TestimonialSlider';
 import CTASection from '../components/ui/CTASection';
 import useScrollReveal from '../hooks/useScrollReveal';
 import { businessUnits, coreValues, testimonials } from '../data';
+import aboutImage from '../assets/who_we_are.jpeg';
+import aboutImage2 from '../assets/who_we_are2.jpeg';
 
 function RevealSection({ children, className = '', delay = 0 }) {
   const { ref, isVisible } = useScrollReveal();
@@ -20,8 +22,8 @@ function RevealSection({ children, className = '', delay = 0 }) {
 
 const stats = [
   { icon: TrendingUp, value: '500+', label: 'Projects Delivered' },
-  { icon: Globe2,     value: '12+',  label: 'States in Nigeria'  },
-  { icon: Award,      value: '8+',   label: 'Years of Excellence' },
+  { icon: Globe2,     value: '3+',  label: 'States in Nigeria'  },
+  { icon: Award,      value: '6+',   label: 'Years of Excellence' },
 ];
 
 export default function Home() {
@@ -109,11 +111,22 @@ export default function Home() {
 
             <RevealSection delay={150}>
               {/* Decorative visual block */}
+              <img
+                src={aboutImage}
+                alt="Gamay Group"
+                className="w-full h-80 object-cover rounded-sm"
+              />
+              
               <div className="relative">
-                <div className="w-full h-80 bg-gradient-to-br from-primary-700 to-primary-900 rounded-sm" />
+                {/* <div className="w-full h-80 bg-gradient-to-br from-primary-700 to-primary-900 rounded-sm" /> */}
+                <img
+                  src={aboutImage2}
+                  alt="Gamay Group"
+                  className="w-full h-80 object-cover rounded-sm"
+                />
                 <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-gold-500 rounded-sm flex items-center justify-center p-6 shadow-2xl">
                   <div className="text-center">
-                    <div className="font-display text-4xl font-600 text-white">8+</div>
+                    <div className="font-display text-4xl font-600 text-white">6+</div>
                     <div className="text-xs font-body text-white/80 mt-1">Years Building Africa</div>
                   </div>
                 </div>

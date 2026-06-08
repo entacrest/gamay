@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Share2, AtSign, MessageCircle, LinkIcon } from 'lucide-react';
 import { contactInfo } from '../../data';
+import logo from "../../assets/gamay.jpeg";
 
 const services = [
   { label: 'Homes & Properties', href: '/homes' },
@@ -26,9 +27,12 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 bg-gold-500 rounded-sm flex items-center justify-center">
-                <span className="font-display font-700 text-white text-lg">G</span>
-              </div>
+              <img
+                src={logo}
+                alt="Gamay Group Logo"
+                className="w-14 h-14 object-contain"
+              />
+
               <div>
                 <div className="font-display font-700 text-white text-xl leading-none">Gamay</div>
                 <div className="font-body text-[10px] text-gold-400 uppercase tracking-[0.2em] font-600">Group</div>

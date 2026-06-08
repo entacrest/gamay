@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { Menu, X, ChevronDown, Phone } from 'lucide-react';
 import { contactInfo } from '../../data';
+import logo from "../../assets/gamay.jpeg";
 
 const navLinks = [
   { label: 'Home', href: '/' },
@@ -54,9 +55,14 @@ export default function Navbar() {
         <nav className="container-pad flex items-center justify-between h-18 py-4" aria-label="Main navigation">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 flex-shrink-0">
-            <div className="w-10 h-10 bg-primary-700 rounded-sm flex items-center justify-center">
+            {/* <div className="w-10 h-10 bg-primary-700 rounded-sm flex items-center justify-center">
               <span className="font-display font-700 text-white text-lg">G</span>
-            </div>
+            </div> */}
+            <img
+              src={logo}
+              alt="Gamay Group Logo"
+              className="w-14 h-14 object-contain"
+            />
             <div>
               <div className="font-display font-700 text-primary-800 text-xl leading-none">Gamay</div>
               <div className="font-body text-[10px] text-gold-500 uppercase tracking-[0.2em] font-600">Group</div>
