@@ -8,6 +8,8 @@ import TestimonialSlider from '../components/ui/TestimonialSlider';
 import CTASection from '../components/ui/CTASection';
 import useScrollReveal from '../hooks/useScrollReveal';
 import { businessUnits, coreValues, testimonials } from '../data';
+import slider1 from '../assets/slider1.jpeg';
+import slider2 from '../assets/slider2.jpeg';
 import aboutImage from '../assets/who_we_are.jpeg';
 import aboutImage2 from '../assets/who_we_are2.jpeg';
 
@@ -27,10 +29,10 @@ function RevealSection({ children, className = '', delay = 0 }) {
 }
 
 const heroSlides = [
-  "/src/assets/slider1.jpeg",
-  "/src/assets/slider2.jpeg",
-  "/src/assets/who_we_are2.jpeg",
-  "/src/assets/who_we_are.jpeg",
+  slider1,
+  slider2,
+  aboutImage2,
+  aboutImage
 ];
 
 const stats = [
