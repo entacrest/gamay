@@ -1,6 +1,12 @@
 import greenfieldEstate from "../assets/Gamay.jpeg";
 import portfolioimage1 from "../assets/slider1.jpeg";
 import portfolioimage2 from "../assets/slider2.jpeg";
+import staffimage1 from "../assets/olanrewaju.png";
+import staffimage2 from "../assets/agu.png";
+import staffimage3 from "../assets/steven.png";
+import staffimage4 from "../assets/cynthia.png";
+
+
 
 // ─── Business Units ───────────────────────────────────────────────
 export const businessUnits = [
@@ -44,10 +50,11 @@ export const coreValues = [
 ];
 
 export const teamMembers = [
-  { name: 'Adebayo Gamay',     title: 'Group Managing Director', img: greenfieldEstate },
-  { name: 'Chioma Okonkwo',    title: 'Head of Real Estate',     img: greenfieldEstate },
-  { name: 'Ibrahim Musa',      title: 'Creative Director',       img: greenfieldEstate },
-  { name: 'Funmilayo Adeyemi', title: 'Head of Facility Mgmt',   img: greenfieldEstate },
+  { name: 'Olanrewaju Osuolale',     title: 'General Manager', img: staffimage1 },
+  { name: 'Agu Godsdelight',    title: 'Growth & Community',     img: staffimage2 },
+  { name: 'Barr. Steven Olashite', title: 'Head, Legal',   img: staffimage3 },
+  { name: 'Cynthia Fejiro',      title: 'Admin Officer',       img: staffimage4 },
+  
 ];
 
 export const testimonials = [
