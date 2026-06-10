@@ -1,10 +1,16 @@
-import greenfieldEstate from "../assets/Gamay.jpeg";
+import monarchPrime from "../assets/monarch.jpeg";
+import rockCity from "../assets/rockcity.png";
+import royalCourt from "../assets/royalcourt.png";
+import royalField from "../assets/royalfield.png";
+import royalHeritage from "../assets/royalheritage.png";
+import greenfieldEstate from "../assets/monarch.jpeg";
 import portfolioimage1 from "../assets/slider1.jpeg";
 import portfolioimage2 from "../assets/slider2.jpeg";
 import staffimage1 from "../assets/olanrewaju.png";
 import staffimage2 from "../assets/agu.png";
 import staffimage3 from "../assets/steven.png";
 import staffimage4 from "../assets/cynthia.png";
+import staffimage5 from "../assets/gbolahan.jpeg";
 
 
 
@@ -54,6 +60,10 @@ export const teamMembers = [
   { name: 'Agu Godsdelight',    title: 'Growth & Community',     img: staffimage2 },
   { name: 'Barr. Steven Olashite', title: 'Head, Legal',   img: staffimage3 },
   { name: 'Cynthia Fejiro',      title: 'Admin Officer',       img: staffimage4 },
+  { name: 'Gbolahan Alaba',      title: 'Tech Lead',       img: staffimage5 },
+  { name: 'Gbolahan Alaba',      title: 'Tech Lead',       img: staffimage5 },
+  { name: 'Gbolahan Alaba',      title: 'Tech Lead',       img: staffimage5 },
+  { name: 'Gbolahan Alaba',      title: 'Tech Lead',       img: staffimage5 },
   
 ];
 
@@ -66,12 +76,267 @@ export const testimonials = [
 ];
 
 export const properties = [
-  { id: 1, name: 'Greenfield Estate Phase 1',      location: 'Epe, Lagos',     category: 'Residential Land', price: '₦2.5M',  status: 'Available', img: greenfieldEstate,},
-  { id: 2, name: 'Harvest Fields Agricultural Park', location: 'Ogun State',   category: 'Agricultural Land', price: '₦1.8M', status: 'Available', img: greenfieldEstate },
-  { id: 3, name: 'Gamay Luxury Homes',              location: 'Lekki, Lagos',  category: 'Residential',       price: '₦45M',  status: 'Available', img: greenfieldEstate },
-  { id: 4, name: 'Metro Commercial Hub',            location: 'Abuja FCT',     category: 'Commercial',        price: '₦12M',  status: 'Available', img: greenfieldEstate },
-  { id: 5, name: 'Sunrise Gardens',                location: 'Ibadan, Oyo',   category: 'Residential Land', price: '₦3.2M',  status: 'Limited',   img: greenfieldEstate },
-  { id: 6, name: 'Farmstead Acres',                location: 'Plateau State', category: 'Agricultural Land', price: '₦950K', status: 'Available', img: greenfieldEstate },
+  {
+    id: 1,
+    slug: "monarch-prime-estate",
+    name: "Monarch Prime Estate",
+    location: "Epe, Lagos",
+    category: "Residential",
+    status: "Available",
+    img: monarchPrime,
+
+    sizes: [
+      { size: "300 SQM", price: "₦2.5M" },
+      { size: "500 SQM", price: "₦4.0M" },
+      { size: "1000 SQM", price: "₦7.5M" },
+    ],
+
+    description:
+      "Monarch Prime Estate is a fully documented residential estate located in Epe, Lagos. \
+      It offers excellent road access, secure environment, and high investment appreciation potential.",
+
+    features: [
+      "Fertile Soil",
+      "Good Access Road",
+      "Electricity",
+      "Drainage",
+      "Security",
+    ],
+    landmarks: [
+      "Redemption Camp",
+      "Nestlé Company",
+      "Ofada Bus Stop",
+      "Lagos-Ibadan Expressway",
+      "Papalanto Shagamu Interchange",
+    ],
+    documents: [
+      "Contract of Sale",
+      "Original Receipt",
+      "Registered Survey",
+      "Allocation Letter",
+      "Deed of Assignment",
+    ],
+    paymentPlan: [
+      "As low as N20,000 Monthly",
+    ],
+  },
+
+  {
+    id: 2,
+    slug: "rock-city-estate",
+    name: "Rock City Estate",
+    location: "Asipa, Obafemi Owode, Ogun State",
+    category: "Residential",
+    status: "Available",
+    img: rockCity,
+
+    sizes: [
+      { size: "150 SQM", price: "₦200,000" },
+      { size: "300 SQM", price: "₦400,000" },
+      { size: "500 SQM", price: "₦700,000" },
+    ],
+
+    description:
+      "Rock City Estate offers a smart investment opportunity in one of Abeokuta's rapidly developing Corridors.",
+
+    features: [
+      "Fertile Soil",
+      "Good Access Road",
+      "Electricity",
+      "Drainage",
+      "Security",
+    ],
+    landmarks: [
+      "Sagamu Interchange",
+      "Nigerian Brewery",
+      "Day Waterman College",
+      "Kobape Town",
+    ],
+    documents: [
+      "Contract of Sale",
+      "Original Receipt",
+      "Registered Survey",
+      "Allocation Letter",
+      "Deed of Assignment",
+    ],
+    paymentPlan: [
+      "As low as N20,000 Monthly",
+    ],
+  },
+
+  {
+    id: 3,
+    slug: "royal-court-estate",
+    name: "Royal Court Estate (Phase II)",
+    location: "Mowe, Ogun State",
+    category: "Residential",
+    status: "Available",
+    img: royalCourt,
+
+    sizes: [
+      { size: "150 SQM", price: "₦250,000" },
+      { size: "300 SQM", price: "₦500,000" },
+      { size: "500 SQM", price: "₦950,000" },
+    ],
+
+    description:
+      "Royal Court Phase II offers a great opportunity to own land in a fast-developing and strategically located environment.",
+
+    features: [
+      "Fertile Soil",
+      "Good Access Road",
+      "Electricity",
+      "Drainage",
+      "Security",
+    ],
+    landmarks: [
+    "Redemption Camp",
+    "Nestlé Company",
+    "Ofada Bus Stop",
+    "Lagos-Ibadan Expressway",
+    "Papalanto Shagamu Interchange",
+    ],
+    documents: [
+      "Contract of Sale",
+      "Original Receipt",
+      "Registered Survey",
+      "Allocation Letter",
+      "Deed of Assignment",
+    ],
+    paymentPlan: [
+      "As low as N20,000 Monthly",
+    ],
+  },
+
+  {
+    id: 4,
+    slug: "royal-field-estate",
+    name: "Royal Field Estate",
+    location: "Ewekoro, Ogun State",
+    category: "Residential",
+    status: "Available",
+    img: royalField,
+
+    sizes: [
+      { size: "500 SQM", price: "₦12M" },
+      { size: "1000 SQM", price: "₦22M" },
+    ],
+
+    description:
+      "Commercial plots strategically positioned for business and mixed-use developments.",
+
+    features: [
+      "Fertile Soil",
+      "Good Access Road",
+      "Electricity",
+      "Drainage",
+      "Security",
+    ],
+    landmarks: [
+      "Redemption Camp",
+      "Nestlé Company",
+      "Ofada Bus Stop",
+      "Lagos-Ibadan Expressway",
+      "Papalanto Shagamu Interchange",
+    ],
+    documents: [
+      "Contract of Sale",
+      "Original Receipt",
+      "Registered Survey",
+      "Allocation Letter",
+      "Deed of Assignment",
+    ],
+    paymentPlan: [
+      "As low as N20,000 Monthly",
+    ],
+  },
+
+  {
+    id: 5,
+    slug: "royal-heritage-estate",
+    name: "Royal Heritage Estate",
+    location: "Ibadan, Oyo State",
+    category: "Residential",
+    status: "Limited",
+    img: royalHeritage,
+
+    sizes: [
+      { size: "150 SQM", price: "₦150,000" },
+      { size: "300 SQM", price: "₦250,000" },
+      { size: "500 SQM", price: "₦400,000" },
+    ],
+
+    description:
+      "Royal Heritage Estate offers an excellent opportunity to own land in a fast-growing area of Ibadan. ",
+
+    features: [
+      "Fertile Soil",
+      "Good Access Road",
+      "Electricity",
+      "Drainage",
+      "Security",
+    ],
+    landmarks: [
+      "Ido Local Government Area",
+      "Ido Market",
+      "Eruwa Road Corridor",
+      "Ilaju Community",
+      "Ibadan City Centre",
+    ],
+    documents: [
+      "Contract of Sale",
+      "Original Receipt",
+      "Registered Survey",
+      "Allocation Letter",
+      "Deed of Assignment",
+    ],
+    paymentPlan: [
+      "As low as N20,000 Monthly",
+    ],
+  },
+
+  {
+    id: 6,
+    slug: "farmstead-acres",
+    name: "Farmstead Acres",
+    location: "Plateau State",
+    category: "Residential",
+    status: "Available",
+    img: monarchPrime,
+
+    sizes: [
+      { size: "500 SQM", price: "₦950K" },
+      { size: "1000 SQM", price: "₦1.8M" },
+    ],
+
+    description:
+      "Agricultural investment property located in Plateau State with rich soil and easy accessibility.",
+
+    features: [
+      "Fertile Soil",
+      "Good Access Road",
+      "Electricity",
+      "Drainage",
+      "Security",
+    ],
+    landmarks: [
+    "Redemption Camp",
+    "Nestlé Company",
+    "Ofada Bus Stop",
+    "Lagos-Ibadan Expressway",
+    "Papalanto Shagamu Interchange",
+    ],
+    documents: [
+      "Contract of Sale",
+      "Original Receipt",
+      "Registered Survey",
+      "Allocation Letter",
+      "Deed of Assignment",
+    ],
+    paymentPlan: [
+      "As low as N20,000 Monthly",
+    ],
+  },
 ];
 
 export const portfolioItems = [
