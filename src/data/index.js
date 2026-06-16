@@ -294,48 +294,48 @@ export const properties = [
     ],
   },
 
-  {
-    id: 6,
-    slug: "farmstead-acres",
-    name: "Farmstead Acres",
-    location: "Plateau State",
-    category: "Residential",
-    status: "Available",
-    img: monarchPrime,
+  // {
+  //   id: 6,
+  //   slug: "farmstead-acres",
+  //   name: "Farmstead Acres",
+  //   location: "Plateau State",
+  //   category: "Residential",
+  //   status: "Available",
+  //   img: monarchPrime,
 
-    sizes: [
-      { size: "500 SQM", price: "₦950K" },
-      { size: "1000 SQM", price: "₦1.8M" },
-    ],
+  //   sizes: [
+  //     { size: "500 SQM", price: "₦950K" },
+  //     { size: "1000 SQM", price: "₦1.8M" },
+  //   ],
 
-    description:
-      "Agricultural investment property located in Plateau State with rich soil and easy accessibility.",
+  //   description:
+  //     "Agricultural investment property located in Plateau State with rich soil and easy accessibility.",
 
-    features: [
-      "Fertile Soil",
-      "Good Access Road",
-      "Electricity",
-      "Drainage",
-      "Security",
-    ],
-    landmarks: [
-    "Redemption Camp",
-    "Nestlé Company",
-    "Ofada Bus Stop",
-    "Lagos-Ibadan Expressway",
-    "Papalanto Shagamu Interchange",
-    ],
-    documents: [
-      "Contract of Sale",
-      "Original Receipt",
-      "Registered Survey",
-      "Allocation Letter",
-      "Deed of Assignment",
-    ],
-    paymentPlan: [
-      "As low as N20,000 Monthly",
-    ],
-  },
+  //   features: [
+  //     "Fertile Soil",
+  //     "Good Access Road",
+  //     "Electricity",
+  //     "Drainage",
+  //     "Security",
+  //   ],
+  //   landmarks: [
+  //   "Redemption Camp",
+  //   "Nestlé Company",
+  //   "Ofada Bus Stop",
+  //   "Lagos-Ibadan Expressway",
+  //   "Papalanto Shagamu Interchange",
+  //   ],
+  //   documents: [
+  //     "Contract of Sale",
+  //     "Original Receipt",
+  //     "Registered Survey",
+  //     "Allocation Letter",
+  //     "Deed of Assignment",
+  //   ],
+  //   paymentPlan: [
+  //     "As low as N20,000 Monthly",
+  //   ],
+  // },
 ];
 
 export const portfolioItems = [
