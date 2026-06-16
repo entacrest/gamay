@@ -6,6 +6,7 @@ import royalHeritage from "../assets/royalheritage.png";
 import greenfieldEstate from "../assets/monarch.jpeg";
 import portfolioimage1 from "../assets/slider1.jpeg";
 import portfolioimage2 from "../assets/slider2.jpeg";
+import ceo from "../assets/ceo.png";
 import staffimage1 from "../assets/olanrewaju.png";
 import staffimage2 from "../assets/agu.png";
 import staffimage3 from "../assets/steven.png";
@@ -56,13 +57,11 @@ export const coreValues = [
 ];
 
 export const teamMembers = [
+  { name: 'Chief Olamidele Fadimiluyi',     title: 'CEO', img: ceo },
   { name: 'Olanrewaju Osuolale',     title: 'General Manager', img: staffimage1 },
   { name: 'Agu Godsdelight',    title: 'Growth & Community',     img: staffimage2 },
   { name: 'Barr. Steven Olashite', title: 'Head, Legal',   img: staffimage3 },
   { name: 'Cynthia Fejiro',      title: 'Admin Officer',       img: staffimage4 },
-  { name: 'Gbolahan Alaba',      title: 'Tech Lead',       img: staffimage5 },
-  { name: 'Gbolahan Alaba',      title: 'Tech Lead',       img: staffimage5 },
-  { name: 'Gbolahan Alaba',      title: 'Tech Lead',       img: staffimage5 },
   { name: 'Gbolahan Alaba',      title: 'Tech Lead',       img: staffimage5 },
   
 ];

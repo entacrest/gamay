@@ -16,7 +16,7 @@ const navLinks = [
     ],
   },
   { label: 'Portfolio', href: '/portfolio' },
-  { label: 'Blog', href: '/blog' },
+  // { label: 'Blog', href: '/blog' },
   { label: 'Contact', href: '/contact' },
 ];
 
