@@ -60,7 +60,7 @@ export default function Home() {
     <>
       <SEO
         title="Building Sustainable Value Across Africa"
-        description="Gamay Group — Integrated solutions in Real Estate, Multimedia, Facility Management and Environmental Services across Africa."
+        description="The Gamay Group — Integrated solutions in Real Estate, Multimedia, Facility Management and Environmental Services across Africa."
       />
 
       {/* ── Hero ── */}
@@ -95,7 +95,7 @@ export default function Home() {
         <div className="container-pad relative z-10 pt-20 pb-12">
           <div className="max-w-4xl">
             <span className="inline-block font-body text-xs font-600 uppercase tracking-[0.3em] text-gold-400 mb-8 animate-fade-in">
-              Gamay Group — Africa's Integrated Solutions Partner
+              The Gamay Group — Africa's Integrated Solutions Partner
             </span>
 
             <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-600 text-white leading-[0.95] mb-8 animate-fade-up">
@@ -151,7 +151,7 @@ export default function Home() {
               <SectionTitle
                 eyebrow="Who We Are"
                 title="Africa's Integrated Value Creator"
-                subtitle="Gamay Group is a multi-disciplinary enterprise delivering excellence across real estate, creative services, and environmental solutions."
+                subtitle="The Gamay Group is a multi-disciplinary enterprise delivering excellence across real estate, creative services, and environmental solutions."
               />
               <div className="space-y-6">
                 <div className="border-l-4 border-gold-500 pl-6">
@@ -175,10 +175,10 @@ export default function Home() {
             </RevealSection>
 
             <RevealSection delay={150}>
-              <img src={aboutImage} alt="Gamay Group" className="w-full h-80 object-cover rounded-sm" />
+              <img src={aboutImage} alt="The Gamay Group" className="w-full h-80 object-cover rounded-sm" />
 
               <div className="relative">
-                <img src={aboutImage2} alt="Gamay Group" className="w-full h-80 object-cover rounded-sm" />
+                <img src={aboutImage2} alt="The Gamay Group" className="w-full h-80 object-cover rounded-sm" />
 
                 <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-gold-500 rounded-sm flex items-center justify-center p-6 shadow-2xl">
                   <div className="text-center">

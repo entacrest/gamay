@@ -29,12 +29,12 @@ export default function Footer() {
             <Link to="/" className="flex items-center gap-3 mb-6">
               <img
                 src={logo}
-                alt="Gamay Group Logo"
+                alt="The Gamay Group Logo"
                 className="w-14 h-14 object-contain"
               />
 
               <div>
-                <div className="font-display font-700 text-white text-xl leading-none">Gamay</div>
+                <div className="font-display font-700 text-white text-xl leading-none"> The Gamay</div>
                 <div className="font-body text-[10px] text-gold-400 uppercase tracking-[0.2em] font-600">Group</div>
               </div>
             </Link>
@@ -106,7 +106,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-primary-800">
         <div className="container-pad py-5 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-blue-300">
-          <span>© {new Date().getFullYear()} Gamay Group. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} The Gamay Group. All rights reserved.</span>
           <div className="flex gap-6">
             <a href="#" className="hover:text-gold-400 transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-gold-400 transition-colors">Terms of Service</a>
