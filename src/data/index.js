@@ -37,16 +37,16 @@ export const businessUnits = [
     color: 'gold',
     services: ['Graphic Design','Photography','Videography','Content Creation','Branding','Digital Marketing','Printing','Media Production','IT Services','Broadcasting'],
   },
-  {
-    id: 'facility',
-    name: 'Facility Management & Environmental Services',
-    slug: '/facility',
-    tagline: 'Professional Cleaning & Environmental Solutions',
-    description: 'Comprehensive residential and commercial cleaning services, facility management, and environmental solutions for homes, offices, schools, and healthcare facilities.',
-    icon: 'Leaf',
-    color: 'emerald',
-    services: ['Routine Cleaning','Deep Cleaning','Post Construction Cleaning','Move-In Cleaning','Move-Out Cleaning','Facility Management'],
-  },
+  // {
+  //   id: 'facility',
+  //   name: 'Facility Management & Environmental Services',
+  //   slug: '/facility',
+  //   tagline: 'Professional Cleaning & Environmental Solutions',
+  //   description: 'Comprehensive residential and commercial cleaning services, facility management, and environmental solutions for homes, offices, schools, and healthcare facilities.',
+  //   icon: 'Leaf',
+  //   color: 'emerald',
+  //   services: ['Routine Cleaning','Deep Cleaning','Post Construction Cleaning','Move-In Cleaning','Move-Out Cleaning','Facility Management'],
+  // },
 ];
 
 export const coreValues = [
@@ -69,7 +69,7 @@ export const teamMembers = [
 export const testimonials = [
   { name: 'Emmanuel O.',  role: 'Property Developer',   company: 'Lagos',         quote: "Gamay Homes guided me through acquiring my first agricultural land seamlessly. Their professionalism and transparency are second to none.", rating: 5 },
   { name: 'Adaeze N.',    role: 'Business Owner',        company: 'Abuja',         quote: "Gamay Multimedia transformed our brand identity completely. The team understood our vision and delivered beyond what we imagined.", rating: 5 },
-  { name: 'Segun F.',     role: 'Facilities Manager',    company: 'Port Harcourt', quote: "Our office complex has never been cleaner. The Gamay facility team is punctual, thorough, and genuinely professional.", rating: 5 },
+  // { name: 'Segun F.',     role: 'Facilities Manager',    company: 'Port Harcourt', quote: "Our office complex has never been cleaner. The Gamay facility team is punctual, thorough, and genuinely professional.", rating: 5 },
   { name: 'Blessing A.',  role: 'Real Estate Investor',  company: 'Lagos',         quote: "I have closed three land deals through Gamay Homes. Every transaction has been smooth, legal, and profitable. Highly recommended.", rating: 5 },
   { name: 'Olumide K.',   role: 'Marketing Director',    company: 'Kano',          quote: "Their content creation team produced a campaign that tripled our engagement. Gamay Multimedia is a true creative powerhouse.", rating: 5 },
 ];
@@ -111,12 +111,12 @@ export const properties = [
     documents: [
       "Contract of Sale",
       "Original Receipt",
-      "Registered Survey",
+      // "Registered Survey",
       "Allocation Letter",
       "Deed of Assignment",
     ],
     paymentPlan: [
-      "As low as N20,000 Monthly",
+      "As low as N100,000 Monthly",
     ],
   },
 
@@ -154,12 +154,12 @@ export const properties = [
     documents: [
       "Contract of Sale",
       "Original Receipt",
-      "Registered Survey",
+      // "Registered Survey",
       "Allocation Letter",
       "Deed of Assignment",
     ],
     paymentPlan: [
-      "As low as N20,000 Monthly",
+      "As low as N100,000 Monthly",
     ],
   },
 
@@ -198,12 +198,12 @@ export const properties = [
     documents: [
       "Contract of Sale",
       "Original Receipt",
-      "Registered Survey",
+      // "Registered Survey",
       "Allocation Letter",
       "Deed of Assignment",
     ],
     paymentPlan: [
-      "As low as N20,000 Monthly",
+      "As low as N100,000 Monthly",
     ],
   },
 
@@ -241,12 +241,12 @@ export const properties = [
     documents: [
       "Contract of Sale",
       "Original Receipt",
-      "Registered Survey",
+      // "Registered Survey",
       "Allocation Letter",
       "Deed of Assignment",
     ],
     paymentPlan: [
-      "As low as N20,000 Monthly",
+      "As low as N100,000 Monthly",
     ],
   },
 
@@ -285,12 +285,12 @@ export const properties = [
     documents: [
       "Contract of Sale",
       "Original Receipt",
-      "Registered Survey",
+      // "Registered Survey",
       "Allocation Letter",
       "Deed of Assignment",
     ],
     paymentPlan: [
-      "As low as N20,000 Monthly",
+      "As low as N100,000 Monthly",
     ],
   },
 
@@ -502,7 +502,7 @@ export const industries = [
 
 export const contactInfo = {
   phone: '09027424136',
-  email: 'hellogamay@gmail.com',
+  email: 'hello@gamay.ng',
   whatsapp: '+2349027424136',
   mapUrl:   'https://maps.app.goo.gl/hY2bt8oaAvpstNeE8',
 };

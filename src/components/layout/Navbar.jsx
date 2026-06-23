@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { Menu, X, ChevronDown, Phone } from 'lucide-react';
 import { contactInfo } from '../../data';
-import logo from "../../assets/Gamay.jpeg";
+import logo from "../../assets/gamayicon.jpeg";
 
 const navLinks = [
   { label: 'Home', href: '/' },
@@ -12,7 +12,7 @@ const navLinks = [
     children: [
       { label: 'Homes & Properties', href: '/homes' },
       { label: 'Multimedia', href: '/multimedia' },
-      { label: 'Facility Management', href: '/facility' },
+      // { label: 'Facility Management', href: '/facility' },
     ],
   },
   { label: 'Portfolio', href: '/portfolio' },
@@ -60,11 +60,11 @@ export default function Navbar() {
             </div> */}
             <img
               src={logo}
-              alt="Gamay Group Logo"
+              alt="The Gamay Group Logo"
               className="w-14 h-14 object-contain"
             />
             <div>
-              <div className="font-display font-700 text-primary-800 text-xl leading-none">Gamay</div>
+              <div className="font-display font-700 text-primary-800 text-xl leading-none">The Gamay</div>
               <div className="font-body text-[10px] text-gold-500 uppercase tracking-[0.2em] font-600">Group</div>
             </div>
           </Link>
