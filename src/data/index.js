@@ -85,9 +85,8 @@ export const properties = [
     img: monarchPrime,
 
     sizes: [
-      { size: "300 SQM", price: "₦2.5M" },
-      { size: "500 SQM", price: "₦4.0M" },
-      { size: "1000 SQM", price: "₦7.5M" },
+      { size: "300 SQM", price: "₦800k" },
+      { size: "500 SQM", price: "₦1.5M" },
     ],
 
     description:
