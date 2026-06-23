@@ -1,5 +1,12 @@
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Share2, AtSign, MessageCircle, LinkIcon } from 'lucide-react';
+import {
+  FaFacebookF,
+  FaInstagram,
+   FaTiktok,
+  FaLinkedinIn,
+  FaXTwitter,
+} from "react-icons/fa6";
 import { contactInfo } from '../../data';
 import logo from "../../assets/gamayicon.jpeg";
 
@@ -16,6 +23,34 @@ const company = [
   { label: 'Our Team', href: '/about#team' },
   { label: 'Core Values', href: '/about#values' },
   { label: 'Contact', href: '/contact' },
+];
+
+const socialLinks = [
+  {
+    icon: FaFacebookF,
+    href: "https://web.facebook.com/gamaypropertiesng",
+    label: "Facebook",
+  },
+  {
+    icon: FaInstagram,
+    href: "https://www.instagram.com/_gamaygroup",
+    label: "Instagram",
+  },
+  {
+    icon: FaTiktok,
+    href: "https://www.tiktok.com/@inside_gamay",
+    label: "TikTok",
+  },
+  // {
+  //   icon: FaLinkedinIn,
+  //   href: "#",
+  //   label: "LinkedIn",
+  // },
+  // {
+  //   icon: FaXTwitter,
+  //   href: "#",
+  //   label: "X",
+  // },
 ];
 
 export default function Footer() {
@@ -41,14 +76,29 @@ export default function Footer() {
             <p className="text-sm text-blue-200 leading-relaxed mb-6 max-w-xs">
               Building sustainable value across Africa through integrated solutions in Real Estate, Multimedia, and Facility Management.
             </p>
-            <div className="flex gap-3">
+            {/* <div className="flex gap-3">
               {[Share2, AtSign, MessageCircle, LinkIcon].map((Icon, i) => (
                 <a key={i} href="#" aria-label="Social media"
                   className="w-9 h-9 bg-primary-800 hover:bg-gold-500 rounded-sm flex items-center justify-center transition-colors">
                   <Icon size={15} className="text-blue-200 hover:text-white" />
                 </a>
               ))}
+            </div> */}
+            <div className="flex gap-3">
+              {socialLinks.map(({ icon: Icon, href, label }) => (
+                <a
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={label}
+                  className="w-9 h-9 bg-primary-800 hover:bg-gold-500 rounded-sm flex items-center justify-center transition-all duration-300"
+                >
+                  <Icon className="text-blue-200 text-sm hover:text-white" />
+                </a>
+              ))}
             </div>
+            
           </div>
 
           {/* Services */}
