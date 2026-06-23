@@ -213,12 +213,12 @@ export const properties = [
     name: "Royal Field Estate",
     location: "Ewekoro, Ogun State",
     category: "Residential",
-    status: "Available",
+    status: "Sold Out",
     img: royalField,
 
     sizes: [
-      { size: "500 SQM", price: "₦12M" },
-      { size: "1000 SQM", price: "₦22M" },
+      { size: "500 SQM", price: "Sold Out" },
+      { size: "1000 SQM", price: "Sold Out" },
     ],
 
     description:

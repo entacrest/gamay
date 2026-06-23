@@ -6,7 +6,7 @@ import logo from "../../assets/gamayicon.jpeg";
 const services = [
   { label: 'Homes & Properties', href: '/homes' },
   { label: 'Gamay Multimedia', href: '/multimedia' },
-  { label: 'Facility Management', href: '/facility' },
+  // { label: 'Facility Management', href: '/facility' },
   { label: 'Portfolio', href: '/portfolio' },
   { label: 'Blog', href: '/blog' },
 ];
