@@ -11,6 +11,7 @@ const navLinks = [
     label: 'Services', href: '#',
     children: [
       { label: 'Homes & Properties', href: '/homes' },
+      { label: 'PayBit — Own Land from ₦20k/mo', href: '/paybit' },
       { label: 'Multimedia', href: '/multimedia' },
       // { label: 'Facility Management', href: '/facility' },
     ],

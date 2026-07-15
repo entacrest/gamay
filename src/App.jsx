@@ -11,6 +11,7 @@ const Facility   = lazy(() => import('./pages/Facility'));
 const Portfolio  = lazy(() => import('./pages/Portfolio'));
 const Blog       = lazy(() => import('./pages/Blog'));
 const Contact    = lazy(() => import('./pages/Contact'));
+const PayBit     = lazy(() => import('./pages/PayBit'));
 const NotFound   = lazy(() => import('./pages/NotFound'));
 
 // function PageLoader() {
@@ -53,6 +54,7 @@ export default function App() {
               <Route path="portfolio"  element={<Portfolio />} />
               <Route path="blog"       element={<Blog />} />
               <Route path="contact"    element={<Contact />} />
+              <Route path="paybit"     element={<PayBit />} />
             </Route>
             <Route path="*" element={<NotFound />} />
           </Routes>
