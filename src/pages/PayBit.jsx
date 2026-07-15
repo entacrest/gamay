@@ -8,6 +8,9 @@ import SEO from '../utils/SEO';
 import PageBanner from '../components/ui/PageBanner';
 import useScrollReveal from '../hooks/useScrollReveal';
 import paybitlego from '../assets/paybitlogo_2.png';
+import paybitImg2 from '../assets/paybit_image_2.jpeg';
+import paybitImg3 from '../assets/paybit_image_3.jpeg';
+import paybitImg4 from '../assets/paybit_image_4.jpeg';
 
 // ─── Replace this with your actual Formspree form ID ───────────────
 // 1. Go to https://formspree.io and sign up for free
@@ -44,7 +47,7 @@ const benefits = [
 const whyChoose = [
   { stat: '50+',  label: 'Active Subscribers',       desc: 'Join a growing community already on their path to ownership.' },
   { stat: '100%', label: 'Transparent Transactions', desc: 'Every payment is documented with official receipts and subscription records.' },
-  { stat: 'Verified', label: 'Marketer Network',     desc: 'Our estates are promoted by a structured network of verified real estate professionals.' },
+  { stat: 'Verified', label: 'Marketer Network',     desc: 'Our estates are promoted by a structured network' },
 ];
 
 const properties = [
@@ -321,6 +324,87 @@ export default function PayBit() {
               </Reveal>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ── Real Subscribers Gallery ── */}
+      <section className="section-pad bg-white">
+        <div className="container-pad">
+          <Reveal>
+            <div className="text-center mb-14">
+              <span className="block text-xs font-semibold font-body uppercase tracking-[0.25em] text-gold-500 mb-3">Our Subscribers</span>
+              <span className="block w-12 h-0.5 bg-gold-500 mx-auto mb-5" />
+              <h2 className="font-display text-4xl md:text-5xl font-semibold text-primary-800">
+                Real People. Real Ownership.
+              </h2>
+              <p className="text-gray-500 mt-4 max-w-xl mx-auto">
+                These are real PayBit subscribers receiving their welcome packs on their land.
+                Your journey could start today.
+              </p>
+            </div>
+          </Reveal>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Reveal delay={0}>
+              <div className="relative overflow-hidden rounded-sm group">
+                <img
+                  src={paybitImg2}
+                  alt="PayBit subscriber receiving welcome pack"
+                  className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary-900/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                  <p className="text-white font-display text-lg font-semibold">
+                    "My land is now a reality."
+                  </p>
+                </div>
+              </div>
+            </Reveal>
+
+            <Reveal delay={100}>
+              <div className="relative overflow-hidden rounded-sm group">
+                <img
+                  src={paybitImg3}
+                  alt="PayBit subscriber on their land"
+                  className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary-900/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                  <p className="text-white font-display text-lg font-semibold">
+                    "₦20,000 a month changed everything."
+                  </p>
+                </div>
+              </div>
+            </Reveal>
+
+            <Reveal delay={200}>
+              <div className="relative overflow-hidden rounded-sm group">
+                <img
+                  src={paybitImg4}
+                  alt="PayBit subscriber family with welcome pack"
+                  className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary-900/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                  <p className="text-white font-display text-lg font-semibold">
+                    "A future secured for my family."
+                  </p>
+                </div>
+              </div>
+            </Reveal>
+          </div>
+
+          {/* Pull quote */}
+          <Reveal delay={150}>
+            <div className="mt-12 bg-gold-50 border border-gold-200 rounded-sm p-8 md:p-12 text-center max-w-3xl mx-auto">
+              <span className="block font-display text-6xl text-gold-300 leading-none mb-2">"</span>
+              <p className="font-display text-xl md:text-2xl text-primary-800 italic leading-relaxed -mt-4">
+                Join a growing community of 50+ active subscribers already on their path to ownership. 
+                Your land is waiting.
+              </p>
+              <span className="block w-10 h-0.5 bg-gold-400 mx-auto mt-6" />
+              <span className="block text-xs font-semibold font-body uppercase tracking-widest text-gold-500 mt-4">
+                Gamay Properties — PayBit Program
+              </span>
+            </div>
+          </Reveal>
         </div>
       </section>
 
