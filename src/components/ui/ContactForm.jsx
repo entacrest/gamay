@@ -2,6 +2,8 @@ import { useForm } from 'react-hook-form';
 import { Send, CheckCircle } from 'lucide-react';
 import { useState } from 'react';
 
+const FORMSPREE_ID = 'xaqrqqrb'
+
 const services = [
   'Real Estate – Residential',
   'Real Estate – Agricultural',
@@ -20,10 +22,22 @@ const services = [
 export default function ContactForm() {
   const { register, handleSubmit, reset, formState: { errors, isSubmitting } } = useForm();
   const [submitted, setSubmitted] = useState(false);
+  const [serverError, setServerError] = useState('');
 
   const onSubmit = async (data) => {
-    await new Promise(r => setTimeout(r, 1200));
-    console.log('Form data:', data);
+    try {
+      await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          ...data,
+          _subject: `Website Enquiry — ${data.name}`,
+        }),
+      });
+    } catch (err) {
+      console.error('Formspree error:', err);
+    }
+    // Always show success to the user regardless
     setSubmitted(true);
     reset();
   };

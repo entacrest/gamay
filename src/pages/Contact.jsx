@@ -6,6 +6,8 @@ import ContactForm from '../components/ui/ContactForm';
 import useScrollReveal from '../hooks/useScrollReveal';
 import { contactInfo } from '../data';
 
+const FORMSPREE_ID = 'mpqvqadz';
+
 function Reveal({ children, delay = 0 }) {
   const { ref, isVisible } = useScrollReveal();
   return (

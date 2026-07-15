@@ -7,13 +7,13 @@ import {
 import SEO from '../utils/SEO';
 import PageBanner from '../components/ui/PageBanner';
 import useScrollReveal from '../hooks/useScrollReveal';
-import paybitlego from '../assets/logo_2.png';
+import paybitlego from '../assets/paybitlogo_2.png';
 
 // ─── Replace this with your actual Formspree form ID ───────────────
 // 1. Go to https://formspree.io and sign up for free
 // 2. Create a new form, set the email to hellogamay@gmail.com
 // 3. Copy the form ID (looks like "xpzgkwrb") and paste it below
-const FORMSPREE_ID = 'mpqvqadz';
+const FORMSPREE_ID = 'xnjejjep';
 
 function Reveal({ children, delay = 0, className = '' }) {
   const { ref, isVisible } = useScrollReveal();
@@ -48,10 +48,11 @@ const whyChoose = [
 ];
 
 const properties = [
-  'Greenfield Estate Phase 1 — Epe, Lagos',
-  'Harvest Fields Agricultural Park — Ogun State',
-  'Sunrise Gardens — Ibadan, Oyo',
-  'Farmstead Acres — Plateau State',
+  'Monarch Prime Estate — Epe, Lagos',
+  'Rock City Estate — Obafemi Owode, Ogun State',
+  'Royal Court Estate (Phase II) — Mowe, Ogun State',
+  'Royal Field Estate — Ewekoro, Ogun State',
+  'Royal Heritage Estate — Ibadan, Oyo State',
 ];
 
 const plans = [
