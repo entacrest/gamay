@@ -16,7 +16,7 @@ import paybitImg4 from '../assets/paybit_image_4.jpeg';
 // 1. Go to https://formspree.io and sign up for free
 // 2. Create a new form, set the email to hellogamay@gmail.com
 // 3. Copy the form ID (looks like "xpzgkwrb") and paste it below
-const FORMSPREE_ID = 'xnjejjep';
+const FORMSPREE_ID = 'mbdndbwb';
 
 function Reveal({ children, delay = 0, className = '' }) {
   const { ref, isVisible } = useScrollReveal();
@@ -45,7 +45,7 @@ const benefits = [
 ];
 
 const whyChoose = [
-  { stat: '50+',  label: 'Active Subscribers',       desc: 'Join a growing community already on their path to ownership.' },
+  { stat: '600+',  label: 'Active Subscribers',       desc: 'Join a growing community already on their path to ownership.' },
   { stat: '100%', label: 'Transparent Transactions', desc: 'Every payment is documented with official receipts and subscription records.' },
   { stat: 'Verified', label: 'Marketer Network',     desc: 'Our estates are promoted by a structured network' },
 ];
@@ -396,7 +396,7 @@ export default function PayBit() {
             <div className="mt-12 bg-gold-50 border border-gold-200 rounded-sm p-8 md:p-12 text-center max-w-3xl mx-auto">
               <span className="block font-display text-6xl text-gold-300 leading-none mb-2">"</span>
               <p className="font-display text-xl md:text-2xl text-primary-800 italic leading-relaxed -mt-4">
-                Join a growing community of 50+ active subscribers already on their path to ownership. 
+                Join a growing community of 600+ active subscribers already on their path to ownership. 
                 Your land is waiting.
               </p>
               <span className="block w-10 h-0.5 bg-gold-400 mx-auto mt-6" />
