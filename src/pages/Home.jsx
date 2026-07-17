@@ -199,10 +199,10 @@ export default function Home() {
       <section className="section-pad bg-gray-50">
         <div className="container-pad">
           <RevealSection>
-            <SectionTitle eyebrow="Our Business Units" title="Two Pillars of Excellence" center />
+            <SectionTitle eyebrow="Our Business Units" title="Three Pillars of Excellence" center />
           </RevealSection>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {businessUnits.map((unit, i) => (
               <RevealSection key={unit.id} delay={i * 120}>
                 <ServiceCard {...unit} />

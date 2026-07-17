@@ -37,16 +37,16 @@ export const businessUnits = [
     color: 'gold',
     services: ['Graphic Design','Photography','Videography','Content Creation','Branding','Digital Marketing','Printing','Media Production','IT Services','Broadcasting'],
   },
-  // {
-  //   id: 'facility',
-  //   name: 'Facility Management & Environmental Services',
-  //   slug: '/facility',
-  //   tagline: 'Professional Cleaning & Environmental Solutions',
-  //   description: 'Comprehensive residential and commercial cleaning services, facility management, and environmental solutions for homes, offices, schools, and healthcare facilities.',
-  //   icon: 'Leaf',
-  //   color: 'emerald',
-  //   services: ['Routine Cleaning','Deep Cleaning','Post Construction Cleaning','Move-In Cleaning','Move-Out Cleaning','Facility Management'],
-  // },
+  {
+    id: 'facility',
+    name: 'Facility Management & Environmental Services',
+    slug: '/facility',
+    tagline: 'Professional Cleaning & Environmental Solutions',
+    description: 'Comprehensive residential and commercial cleaning services, facility management, and environmental solutions for homes, offices, schools, and healthcare facilities.',
+    icon: 'Leaf',
+    color: 'emerald',
+    services: ['Routine Cleaning','Deep Cleaning','Post Construction Cleaning','Move-In Cleaning','Move-Out Cleaning','Facility Management'],
+  },
 ];
 
 export const coreValues = [
