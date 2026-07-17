@@ -25,7 +25,7 @@ export const businessUnits = [
     description: 'We develop, broker, and sell residential and agricultural real estate across Nigeria, making land ownership accessible and straightforward.',
     icon: 'Building2',
     color: 'primary',
-    services: ['Residential Real Estate','Agricultural Real Estate','Real Estate Brokerage','Building Construction','Residential Land Sales','Agricultural Land Sales'],
+    services: ['Residential Real Estate','Real Estate Brokerage','Building Construction','Residential Land Sales','Agricultural Land Sales'],
   },
   {
     id: 'multimedia',
